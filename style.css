@@ -1,0 +1,49 @@
+body {background-color: #101010;
+      }
+      A {color: rgb(100,128,255); text-decoration: none; }    
+      .tableRoot {margin: 0 auto; 
+                  width: 800px; 
+                  background: #000000; 
+                  border: 6px solid #0048ff;
+                  padding: 10px;
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+      .title {font-family:Times, serif; 
+              font-size:300%; 
+              font-weight:bold; 
+              background: #0048ff;
+              padding-left: 15px;
+              text-align: center;
+              height: 80px;
+              text-shadow: 2px 2px #000000;
+  line-height: 80px;}
+      .title A {color: white; 
+                text-decoration: none;}
+      .tableNav {
+        padding: 10px;
+             }
+      .tableNav A { 
+        background-color: #0048ff;
+        color:  white;
+                   text-decoration: none;
+                   border: 10px solid #0048ff;
+                 text-shadow: 2px 2px #000000;}
+      .tableNav A:hover {color: #000000; 
+                         text-decoration: none; }
+      .tableNav TR TD {padding-left: 5px; }
+      .content {color: white;
+        padding: 18px;
+                padding-top: 10px; 
+                text-align: center; 
+                text-indent: 0px; 
+                margin: 10px; 
+                background: #0048ff;
+              text-shadow: 2px 2px #000000;}
+      .footer {font-size:small; 
+        text-shadow: 2px 2px #000000;
+               text-align: center;  
+               padding-top: 20px; 
+               padding-bottom: 10px;}
+      .footer A {text-decoration: none;
+                 color: white; 
+                 background: #0048ff;
+                 border: 10px solid #0048ff;}
